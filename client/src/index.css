@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-display: 'Lora', serif;
+  --font-body: 'Source Sans 3', sans-serif;
+
+  --color-navy: #16324a;
+  --color-navy-deep: #0e2233;
+  --color-gold: #b8863b;
+  --color-gold-light: #d9ad6a;
+  --color-paper: #f6f3ec;
+  --color-paper-white: #fffdf8;
+  --color-ink: #26282b;
+  --color-ink-soft: #5b6066;
+  --color-line: #d9d2c2;
+  --color-green: #3a7d44;
+  --color-green-bg: #e7f2e8;
+  --color-amber: #b8863b;
+  --color-amber-bg: #faf1e2;
+  --color-red: #a63d34;
+  --color-red-bg: #f7e8e6;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
